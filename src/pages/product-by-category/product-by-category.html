@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons left>
+      <button color="danger" ion-button icon menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Product By Category</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-list>
+        <ion-item *ngFor="let product of products" text-wrap (click)="openProductPage(product)">
+          <ion-thumbnail item-left>
+            <img [src]="product.featured_src">
+          </ion-thumbnail>
+      
+          <h2>{{ product.title }}</h2>
+      
+          <p>
+            <span [innerHTML]="product.short_description.substr(0, 30) + '...'"></span>
+            <span [innerHTML]="product.price_html"></span>      
+          </p>
+      
+          <button ion-button icon clear item-right>
+              <ion-icon name="arrow-round-forward"></ion-icon>
+          </button>
+        </ion-item>
+      </ion-list>
+
+      <ion-infinite-scroll (ionInfinite)="LoadMoreProducts($event)">
+          <ion-infinite-scroll-content></ion-infinite-scroll-content>
+        </ion-infinite-scroll>
+</ion-content>

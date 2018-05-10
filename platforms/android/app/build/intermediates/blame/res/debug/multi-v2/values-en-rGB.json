@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hamma\\Desktop\\WooIonic\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hamma\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\c17ee412f5f0ad9dc479b47929163fb8\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2862",
+                        "endColumns": "100",
+                        "endOffsets": "2958"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hamma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\7e5391f5efae42c487728bed20370ce5\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "285,388,572,695,800,1010,1131,1273,1401,1619,1722,1905,2028,2233,2407,2496,2584",
+                        "endColumns": "102,183,122,104,209,120,141,127,217,102,182,122,204,173,88,87,103",
+                        "endOffsets": "387,571,694,799,1009,1130,1272,1400,1618,1721,1904,2027,2232,2406,2495,2583,2687"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,396,523,632,842,967,1113,1442,1660,1767,1950,2077,2282,2460,2553,2645",
+                        "endColumns": "106,183,126,108,209,124,145,131,217,106,182,126,204,177,92,91,107",
+                        "endOffsets": "207,391,518,627,837,962,1108,1240,1655,1762,1945,2072,2277,2455,2548,2640,2748"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hamma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-11.8.0.aar\\0ee02f2366ed0dee95e96605ae54fe67\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "232",
+                        "endColumns": "104",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2753",
+                        "endColumns": "108",
+                        "endOffsets": "2857"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hamma\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\4a50049c228f3a2e7f0d1c2d9411b3ec\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "287",
+                        "endColumns": "196",
+                        "endOffsets": "483"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1245",
+                        "endColumns": "196",
+                        "endOffsets": "1437"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Tue May 08 13:28:47 PKT 2018
+base.0=C\:\\Users\\hamma\\Desktop\\WooIonic\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\hamma\\Desktop\\WooIonic\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
